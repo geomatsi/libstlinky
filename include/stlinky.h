@@ -8,8 +8,13 @@
 #ifndef STLINKY_H
 #define STLINKY_H
 
-
+#define CONFIG_LIB_STLINKY_BSIZE	128
 #define STLINKY_MAGIC 0xDEADF00D
+
+#define min_t(type, x, y) ({	\
+		type __min1 = (x);		\
+		type __min2 = (y);		\
+		__min1 < __min2 ? __min1: __min2; })
 
 /* NOTE: Since rxsize/txsize will be always one
    AXI transaction these will be hopefully atomic

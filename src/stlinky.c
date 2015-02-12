@@ -5,11 +5,10 @@
  *
  */
 
-#include <arch/antares.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
-#include <lib/stlinky.h>
+#include <stlinky.h>
 
 
 volatile struct stlinky g_stlinky_term = {
