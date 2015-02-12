@@ -1,3 +1,10 @@
+/*
+ *
+ * Copyright (c) 2013 Andrew 'Necromant' Andrianov
+ * Distributed under the GNU GPL v2.
+ *
+ */
+
 #ifndef STLINKY_H
 #define STLINKY_H
 

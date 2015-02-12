@@ -1,3 +1,10 @@
+/*
+ *
+ * Copyright (c) 2013 Andrew 'Necromant' Andrianov
+ * Distributed under the GNU GPL v2.
+ *
+ */
+
 #include <arch/antares.h>
 #include <stdint.h>
 #include <stdio.h>
