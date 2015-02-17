@@ -30,6 +30,10 @@ CFLAGS += -I$(INC_DIR)
 
 #
 
+CFLAGS += $(CONFIG_FLAGS)
+
+#
+
 OBJS += $(SRC_DIR)/stlinky.o
 
 #
