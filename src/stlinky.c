@@ -63,3 +63,11 @@ int _read(int file, char *ptr, int len) {
 }
 
 #endif
+
+#ifdef CONFIG_LIB_PRINTF
+int putchar(int c)
+{
+	char ch = (char) c;
+    return stlinky_tx(&g_stlinky_term, &ch, sizeof(ch));
+}
+#endif
